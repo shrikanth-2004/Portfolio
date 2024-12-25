@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Project">Project</a>
+            <a href="#Contact">Contact</a>
+
+        </nav>
+    </header>
+    <section class="home" id="Home">
+        <div class="home-content">
+            <div class="home-img">
+                <div class="glowing-circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="me.jpg" alt="My profile">
+                    </div>
+                </div>
+            </div>
+            <div class="home-info">
+                <h3>Hello Its me,</h3>
+                <h1>Shrikanth nayak</h1>
+                <h3>And i am a <br><span class="multiple-text"></span></h3>
+                <p>I have a diverse background in coding and enjoy working with different languages and frameworks. I've
+                    tackled projects in C, Java, and
+                    Python, and I also focus on web development using HTML, CSS, JavaScript, PHP, and MySQL. </p>
+
+
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/shrikanth-nayak-93708230a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/shrikanth-2004" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.facebook.com/shrikanth.nayak.710?mibextid=ZbWKwL" target="_blank"><i
+                            class='bx bxl-facebook-circle'></i></a>
+                </div>
+                <a href="sos.jpg" download="sos.jpg" class="btn">download resume</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="about" id="About">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-info">
+
+            <div class="about-image">
+                <div class="glowing-circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="aboutimg.jpg" alt="My profile">
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <p>I am a computer science student passionate about programming and technology. I enjoy working on
+                    projects
+                    that involve web development and databases, constantly seeking to enhance my skills. My hands-on
+                    experience
+                    with various programming languages and frameworks allows me to tackle real-world challenges
+                    effectively.
+                </p>
+                <div class="skil">
+                    <h1>Skills</h1>
+                    <marquee>
+                        <i class='bx bxl-c-plus-plus'></i>
+                        <i class='bx bxl-java'></i>
+                        <i class='bx bxl-python'></i>
+                        <i class='bx bxs-file-html'></i>
+                        <i class='bx bxs-file-css'></i>
+                        <i class='bx bxs-file-js'></i>
+                        <i class='bx bxl-nodejs'></i>
+                        <i class='bx bxl-php'></i>
+                        <i class='bx bxl-mongodb'></i>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="Project" portfolio>
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="project1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Desktop Application.</h4>
+                    <p>The simple Java calculator program performs basic arithmetic operations. It allows users to input two numbers and choose an
+                        operation, displaying the result clearly. This program demonstrates Java concepts
+                        effectively.</p>
+                    <a href="https://github.com/shrikanth-2004/Calculator" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div><br>
+
+            <div class="portfolio-box">
+                <img src="project2.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>web design</h4>
+                    <p>A User Authentication System developed with HTML, CSS, PHP, and a MySQL database using XAMPP to
+                        securely manage user login, registration, and session handling.  and provides a smooth user experience.</p>
+                    <a href="https://github.com/shrikanth-2004/user-authentication-system" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div><br>
+            <div class="portfolio-box">
+
+                <img src="project3.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Quiz Application</h4>
+                    <p>
+                        The quiz app features a neon-style design using CSS, providing a visually striking and modern
+                        look. It presents users with 10 national-themed questions.
+                        The neon effect enhances the interface's appeal, while JavaScript ensures smooth interactivity
+                        and score tracking.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+    </section>
+    <section class="content" id="Contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+        <form action="https://formsubmit.co/1a03cbf2e375161846a5826ddbd8dbdc" method="POST">
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="mobile Number">
+                <input type="text" placeholder="subject">
+
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <input type="submit" value="send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p> &COPY; 2024 BUILT BY SHRIKANTH NAYAK</p>
+
+        </div>
+        <div class="footer-icontop">
+            <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
